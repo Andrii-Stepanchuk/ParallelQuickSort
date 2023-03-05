@@ -12,7 +12,6 @@ public class ArrayFileWriter {
             System.out.println("\n Результат було збережено y файл " + fileName + "\n");
         } catch (IOException e) {
             System.out.println("\n Сталася помилка під час збереження файлу " + fileName + "\n");
-            throw new RuntimeException(e);
         }
     }
 }

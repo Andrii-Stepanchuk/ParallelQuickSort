@@ -20,7 +20,7 @@ public class ArrayFileReader {
             System.out.println("\n Результат було зчитано з файлу " + fileName + "\n");
         } catch (IOException e) {
             System.out.println("\n Сталася помилка під час читання файлу " + fileName + "\n");
-            throw new RuntimeException(e);
+            return new int[0];
         }
         return array;
     }
